@@ -28,6 +28,7 @@ public class Student extends Actor
        gradeLevel = grade;
        average = avg;
        it = isIt;
+       
        if( studentNumber == 1 )
        {
            upKey = "w";
@@ -51,6 +52,7 @@ public class Student extends Actor
        }
        
        itDelay = 200;
+       
        if( it == true )
        {
            setImage("ppl1.png");

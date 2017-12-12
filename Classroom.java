@@ -23,8 +23,8 @@ public class Classroom extends World
     private void prepare()
     {
        Student student1 = new Student( 3, "Micheal", "Stoddart", 10, 84.5, false ); 
-       Student student2 = new Student( 2, "John", "Smith", 9, 74.3, false );
-       Student student3 = new Student( 1, "Aaron", "Sundmark", 10, 80.6, true );
+       Student student2 = new Student( 2, "Devyn", "Desrosiers", 10, 84.4, false );
+       Student student3 = new Student( 1, "Aaron", "Sundmark", 10, 84.3, true );
        
        addObject( student1, 60, 60 );
        addObject( student2, 540, 60 );
